@@ -98,16 +98,10 @@
             android:name=".activity.WebBrowserActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.TransactionRecordActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".activity.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.ModifyWalletActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity.TransactionDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.ModifyPwdActivity"

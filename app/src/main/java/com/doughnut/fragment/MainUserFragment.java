@@ -17,12 +17,12 @@ import com.doughnut.activity.LanguageActivity;
 import com.doughnut.activity.ModifyWalletActivity;
 import com.doughnut.activity.TokenReceiveActivity;
 import com.doughnut.activity.TokenTransferActivity;
-import com.doughnut.activity.TransactionRecordActivity;
 import com.doughnut.activity.WalletManageActivity;
 import com.doughnut.activity.WalletQRActivity;
 import com.doughnut.activity.WebBrowserActivity;
 import com.doughnut.config.Constant;
 import com.doughnut.utils.DeviceUtil;
+import com.doughnut.utils.ToastUtil;
 import com.doughnut.utils.ViewUtil;
 import com.doughnut.wallet.WalletSp;
 
@@ -101,8 +101,8 @@ public class MainUserFragment extends BaseFragment implements View.OnClickListen
             mLayoutManageWallet.setClickable(false);
             WalletManageActivity.startModifyWalletActivity(getActivity(), false);
         } else if (view == mLayoutRecordTransaction) {
-            mLayoutRecordTransaction.setClickable(false);
-            TransactionRecordActivity.startTransactionRecordActivity(getActivity());
+//            mLayoutRecordTransaction.setClickable(false);
+            ToastUtil.toast(getContext(), "比赛项目，待完成");
         } else if (view == mLayoutNode) {
             mLayoutNode.setClickable(false);
             JtNodeRecordActivity.startJtNodeRecordActivity(getActivity());
